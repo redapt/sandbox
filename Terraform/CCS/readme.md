@@ -11,6 +11,6 @@
 
 # Useful commands
 show what will be built <br />
-terraform plan -var 'key_name=YOURKEYNAME'
+terraform plan -var 'key_name=YOURKEYNAME' <br />
 destroy infrastructure managed by terraform <br />
 terraform destroy -var 'key_name=YOURKEYNAME'
