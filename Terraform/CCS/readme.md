@@ -5,7 +5,7 @@
 	https://www.terraform.io/downloads.html
 3. Set PATH variable for Terraform. Terraform.exe installs in C:\Program Files\terraform_0.9.5_windows_amd64 on Windows <br />
 	https://www.java.com/en/download/help/path.xml
-4. Open Powershell as an administrator, cd into root the folder of this project, and run <br />
+4. Open Powershell as an administrator, cd into the root folder of this project, and run <br />
 	terraform apply -var 'key_name=YOURKEYNAME'
 5. You're done. Check AWS console to see newly-created resources
 
