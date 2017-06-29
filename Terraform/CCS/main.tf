@@ -1,7 +1,7 @@
 # for access_key and secret_key, see https://aws.amazon.com/blogs/security/wheres-my-secret-access-key/
 provider "aws" {
-  access_key = "AKIAIVFJAKYWQMGACCXQ"
-  secret_key = "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"
+  access_key = "..."
+  secret_key = "..."
   region = "${var.aws_region}"
 }
 
