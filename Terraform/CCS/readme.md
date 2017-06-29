@@ -8,3 +8,9 @@
 4. Open Powershell as an administrator, cd into root the folder of this project, and run <br />
 	terraform apply -var 'key_name=YOURKEYNAME'
 5. You're done. Check AWS console to see newly-created resources
+
+# Useful commands
+show what will be built <br />
+terraform plan -var 'key_name=YOURKEYNAME'
+destroy infrastructure managed by terraform <br />
+terraform destroy -var 'key_name=YOURKEYNAME'
